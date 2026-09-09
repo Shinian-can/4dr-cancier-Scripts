@@ -419,7 +419,7 @@
             document.head.appendChild(s);
             return s;
         })();
-        style.textContent = '.muye-reader .muye-reader-inner { width: ' + (p*100) + '% !important; max-width: ' + (p*100) + '% !important; } .muye-reader-nav { max-width: ' + (p*100) + '% !important; }';
+        style.textContent = '.muye-reader .muye-reader-inner { width: ' + (p*100) + '% !important; max-width: ' + (p*100) + '% !important; } .muye-reader-nav { max-width: ' + (p*100-1) + '% !important; }';
         console.log('宽度: ' + val + '%');
     }
 
